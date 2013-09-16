@@ -354,3 +354,61 @@ body {
 .bx-controls.bx-has-pager .bx-pager .bx-pager-item a:hover{
         background: url(../images/sld_nav.png) no-repeat 2px 1px;
 }
+
+#make-block {
+    width: 434px;
+    height: 276px;
+    background: url(../images/make.png);
+    position: absolute;
+    z-index: 999;
+    top: 88px;
+    left: 53px;
+    text-align: center;
+}
+
+#make-block h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #6d6e71;
+    margin-top: 58px;
+    font-weight: 600;
+}
+
+#make-block p {
+    font-size: 14px;
+    text-align: center;
+    color: #6d6e71;
+    margin-top: 20px;
+    font-weight: 600; 
+}
+
+#make-site {
+    margin: 17px auto;
+    position: relative;
+    width: 350px;
+    height: 45px;
+}
+
+#make-site .make-input {
+    width: 324px;
+    height: 41px;
+    border:3px solid #e2e2e2;
+    outline: 0;
+    color:#e2e2e2;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+#make-site .submit {
+    position: absolute;
+    right: 7px;
+    height: 39px;
+    width: 138px;
+    background: #ff5f1a;
+    border: 1px solid #ff9466;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    top: 5px;
+    cursor: pointer;
+}
