@@ -412,3 +412,47 @@ body {
     top: 5px;
     cursor: pointer;
 }
+
+.page-title {
+    color: #6d6e71;
+    font-size: 22px;
+    padding-left: 48px;
+    line-height: 85px;
+}
+
+.case-row {
+    width: 242px;
+    height: 242px;
+    background: url("../images/rowbg.png") no-repeat bottom;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+.case-row.last {
+    margin-right: 0;
+}
+
+.case-row .preview {
+    width: 242px;
+    height: 115px;
+}
+ 
+.case-row  h4 {
+    font-weight: 600;
+    color: #6f6f71;
+}
+
+.case-row  p {
+    color: #6f6f71;
+}
+
+.case-row  a {
+    color: #ff5f1a;
+    display: block;
+    bottom: 15px;
+    position: absolute;
+    width: 242px;
+} 
