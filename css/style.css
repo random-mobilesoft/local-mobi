@@ -1,0 +1,248 @@
+@import url(https://reset5.googlecode.com/hg/reset.min.css);
+
+body {
+   width: 100%;
+   font-family: arial, verdana, sans-serif;
+   position: relative;
+}
+
+#menu-bar {
+    height: 90px;
+    position: relative;
+}
+
+.container {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#logo {
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+
+.box {
+    width: 150px;
+    float: right;
+    display: block;
+    position: relative;
+    margin-top: 17px;
+}
+
+.box a {
+    display: block;
+    background: #ff5f1a;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #ff9466;
+    color:#ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+
+#navigation {
+    width: 1000px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    background: #e2e2e2;
+}
+
+.clear {
+    clear: both;
+}
+
+#navigation #menu li {
+    list-style: none;
+    width: 142px;
+    float: left;
+    border-left: 1px solid #fff;
+}
+
+#navigation #menu li.first {
+    border:none;
+}
+
+#navigation #menu li:hover {
+    background: #53c6f1;
+}
+
+#navigation #menu li.active {
+    background: #53c6f1;
+}
+
+#navigation #menu li.active a {
+    color: #fff;
+}
+
+#navigation #menu li a {
+    font-size: 16px;
+    color:#6d6e71;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#navigation #menu li a:hover {
+    color:#fff;
+}
+
+#slider {
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+#price {
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+}
+
+.price-row {
+    width: 298px;
+    height: 298px;
+    background: url("../images/rowbg.png") no-repeat bottom;
+    margin-right: 53px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+}
+
+.price-row.last {
+    margin-right: 0px;
+}
+
+.price-row .preview {
+    width: 298px;
+    height: 115px;
+}
+
+.price-row .text {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.price-row .text p {
+    color: #6d6e71;
+    line-height: 29px;
+}
+
+.price-row .text p span.price {
+    color: #53c6f1;
+    line-height: 29px;
+}
+
+.price-row .read-more {
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    background: #ff5f1a;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ff9466;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#footer {
+    height: 220px;
+    width: 100%;
+    background: #6d6e71;
+    padding-top: 50px;
+}
+
+.footer-row {
+    width: 298px;
+    margin-right: 53px;
+    text-align: center;
+    float: left;
+}
+.contacts {
+    position: relative;
+    height: 125px;
+}
+
+.contacts p{
+    font-size: 18px;
+    color:#fff;
+    line-height: 22px;
+}
+
+.contacts h4{
+    font-size: 18px;
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contacts a{
+    font-size: 18px;
+    color:#53c6f1;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 22px;
+}
+
+.footer-row.last {
+    margin-right: 0px;
+}
+
+.social {
+    height: 70px;
+    text-align: center;
+}
+
+.footer_copyright {
+    height: 24px;
+    text-align: center;
+}
+
+.footer_copyright p {
+    color:#fff;
+    font-size: 12px;
+}
+
+.bx-wrapper {
+    position: relative;
+}
+
+.bx-controls .bx-pager{
+        position: relative;
+        margin: -25px auto;
+        z-index: 999;
+        width: 1000px;
+        text-align: center;
+        overflow: hidden;
+}
+.bx-controls.bx-has-pager .bx-pager .bx-pager-item {
+       width: 15px;
+        height: 15px;
+        display: inline-block;
+}
+.bx-controls.bx-has-pager .bx-pager .bx-pager-item a{
+        text-indent: 9999px;
+        color:transparent;
+        background: url(../images/sld_nav.png) no-repeat -15px 1px;
+        display: block;
+}
+
+.bx-controls.bx-has-pager .bx-pager .bx-pager-item a.active{
+        background: url(../images/sld_nav.png) no-repeat 2px 1px;
+}
+
+.bx-controls.bx-has-pager .bx-pager .bx-pager-item a:hover{
+        background: url(../images/sld_nav.png) no-repeat 2px 1px;
+}
